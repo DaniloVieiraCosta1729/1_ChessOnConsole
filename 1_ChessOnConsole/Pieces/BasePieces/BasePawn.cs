@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _1_ChessOnConsole.Pieces.BasePieces
 {
-    internal class BasePawn : IPiece
+    internal abstract class BasePawn : IPiece
     {        
         public string Move(string partida, string destino, string board)
         {
